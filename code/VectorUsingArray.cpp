@@ -16,8 +16,7 @@ public:
 		current = 0;
 	}
 
-	void push(T data)
-	{
+	void push(T data){
 
 		if (current == capacity) {
 			T* temp = new T[2 * capacity];
